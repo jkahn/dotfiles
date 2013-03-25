@@ -1,0 +1,9 @@
+[user]
+	name = Jeremy G. Kahn
+	email = jeremy@trochee.net
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	unstage = reset HEAD
