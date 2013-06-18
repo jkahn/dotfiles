@@ -112,4 +112,9 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+## Configs that make sense for jeremy
+
+export EDITOR=emacs
+eval "`pip completion --bash`"
+source `which virtualenvwrapper.sh`
 export PATH=/opt/sbt/bin:$PATH

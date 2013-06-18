@@ -1,4 +1,2 @@
 #!/bin/bash
-export EDITOR=emacs
-eval "`pip completion --bash`"
-source `which virtualenvwrapper.sh`
+alias scala-ide=/opt/scala-ide-2.10/eclipse
